@@ -1,0 +1,2 @@
+D:\Codespace\opengl-template\bin\glfw3.dll
+D:\Codespace\opengl-template\opengl-template\x64\Debug\opengl-t.A6F7E961.Up2Date

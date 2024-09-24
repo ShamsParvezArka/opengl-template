@@ -1,0 +1,311 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  main.c
+D:\Codespace\opengl-template\src\main.c(3,1): warning C4464: relative include path contains '..'
+D:\Codespace\opengl-template\src\main.c(4,1): warning C4464: relative include path contains '..'
+D:\Codespace\opengl-template\include\GLFW\glfw3.h(2073,18): warning C4820: 'GLFWgammaramp': '4' bytes padding added after data member 'size'
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\GLFW\glfw3.h(2118,19): warning C4820: 'GLFWgamepadstate': '1' bytes padding added after data member 'buttons'
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\src\main.c(7,1): warning C4464: relative include path contains '..'
+D:\Codespace\opengl-template\include\stb_image.h(816,8): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member 'callback_already_read'
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\stb_image.h(1944,13): warning C4820: '<unnamed-tag>': '3' bytes padding added after data member 'size'
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\stb_image.h(1971,18): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member 'h2'
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\stb_image.h(1981,19): warning C4820: '<unnamed-tag>': '3' bytes padding added after data member 'marker'
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\stb_image.h(3855,8): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member 'ypos'
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\stb_image.h(4182,17): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member 'code_buffer'
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\stb_image.h(4189,29): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member 'z_distance'
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\stb_image.h(4634,8): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member 'depth'
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\stb_image.h(6569,18): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member 'codes'
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\stb_image.h(6577,8): warning C4820: '<unnamed-tag>': '4' bytes padding added after data member 'delay'
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\util.h(73,19): warning C4047: 'function': 'GLuint' differs in levels of indirection from 'unsigned int *'
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\util.h(73,19): warning C4024: 'glad_glGetShaderiv': different types for formal and actual parameter 1
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\util.h(76,28): warning C4047: 'function': 'GLuint' differs in levels of indirection from 'unsigned int *'
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\util.h(76,28): warning C4024: 'glad_glGetShaderInfoLog': different types for formal and actual parameter 1
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\util.h(102,27): warning C4191: 'type cast': unsafe conversion from 'GLFWglproc (__cdecl *)(const char *)' to 'GLADloadproc'
+D:\Codespace\opengl-template\include\util.h(102,27): warning C4191:         Making a function call using the resulting pointer may cause your program to fail
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\util.h(111,45): warning C4100: 'window': unreferenced formal parameter
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\util.h(133,78): warning C4100: 'mods': unreferenced formal parameter
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\util.h(133,52): warning C4100: 'scancode': unreferenced formal parameter
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\util.h(185,36): warning C4047: 'function': 'unsigned int *' differs in levels of indirection from 'unsigned int'
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\util.h(185,36): warning C4024: 'check_shader_compilation_error': different types for formal and actual parameter 1
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\util.h(192,36): warning C4047: 'function': 'unsigned int *' differs in levels of indirection from 'unsigned int'
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\util.h(192,36): warning C4024: 'check_shader_compilation_error': different types for formal and actual parameter 1
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\src\main.c(10,1): warning C4464: relative include path contains '..'
+D:\Codespace\opengl-template\include\lgebra.h(160,5): warning C4033: 'mat4_scale' must return a value
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\include\lgebra.h(176,62): warning C4100: 'aspect': unreferenced formal parameter
+  (compiling source file 'src/main.c')
+  
+D:\Codespace\opengl-template\src\main.c(74,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Codespace\opengl-template\src\main.c(51,18): warning C4189: 'ebo': local variable is initialized but not referenced
+D:\Codespace\opengl-template\src\main.c(49,18): warning C4189: 'vbo': local variable is initialized but not referenced
+D:\Codespace\opengl-template\include\stb_image.h(1254): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(1253): message : index 'slice' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(1254): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(1238): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(1229): message : index 'row' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(1238): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(7245): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(7230): message : index 'j' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(7245): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(7275): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(7274): message : index '' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(7275): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(5794): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(5793): message : index 'tga_h' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(5794): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(7268): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(7262): message : index 'nleft' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(7268): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(5789): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(5788): message : index 'tga_w' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(5789): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(7266): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(7264): message : index '' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(7266): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(5762): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(5761): message : index 'tga_colormap_type' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(5762): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(6900): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(6897): message : index 'pi' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(6900): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(6825): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(6823): message : index 'pi' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(6825): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(6818): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(6816): message : index 'pi' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(6818): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(1788): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(1788): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(1788): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(1787): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(1787): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(1787): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(1786): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(1786): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(1786): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(1785): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(1785): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(1785): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(6272): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(6271): message : index 'pixelCount' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(6272): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(6267): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(6266): message : index 'pixelCount' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(6267): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(4431): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(4430): message : index '' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(4431): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(4381): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(4380): message : index 'ntot' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(4381): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(4375): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(4373): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(4375): message : feeds memory load on this line
+D:\Codespace\opengl-template\include\stb_image.h(6012): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(6011): message : index 'tga_comp' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(6012): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(5978): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(5970): message : index '' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(5978): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(5960): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(5959): message : index 'tga_palette_len' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(5960): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(5937): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(5934): message : index 'tga_height' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(5937): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(4345): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(4344): message : index '' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(4345): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(4317): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(4316): message : index 'zout' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(4317): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(1655): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(1653): message : index 'blen' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(1655): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(1683): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(1682): message : index '' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(1683): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(1675): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(1670): message : index 'blen' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(1675): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(6742): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(6741): message : index 'len' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(6742): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(6721): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(6719): message : index 'codesize' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(6721): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(6433): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(6432): message : index 'width' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(6433): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(6454): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(6453): message : index '' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(6454): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(6486): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(6485): message : index 'count' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(6486): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(6480): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(6479): message : index 'count' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(6480): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(6470): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(6466): message : index 'count' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(6470): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(1845): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(1845): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(1845): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(1844): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(1844): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(1844): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(1843): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(1843): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(1843): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(1842): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(1842): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(1842): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(4007): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(4006): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(4007): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(3997): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(3996): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(4001): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(3991): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(3990): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(3991): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(3988): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(3987): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(3988): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(3969): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(3968): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(3972): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(3962): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(3958): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(3962): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(3931): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(3928): message : index 'k' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(3931): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(2502): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(2500): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(2522): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(3708): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(3704): message : index '' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(3708): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(3550): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(3544): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(3550): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(5140): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(5137): message : index 'pal_len' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(5140): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(3339): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(3321): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(3339): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(3337): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(3321): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(3337): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(3290): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(3285): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(3290): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(3432): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(3431): message : index 'm' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(3432): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(2054): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(2053): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(2060): message : feeds memory load on this line
+D:\Codespace\opengl-template\include\stb_image.h(4892): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(4889): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(4892): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(4885): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(4873): message : index 'p' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(4885): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(4884): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(4873): message : index 'p' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(4884): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(4880): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(4873): message : index 'p' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(4884): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(4977): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(4976): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(4981): message : feeds memory load on this line
+D:\Codespace\opengl-template\include\stb_image.h(4969): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(4968): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(4972): message : feeds memory load on this line
+D:\Codespace\opengl-template\include\stb_image.h(3257): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(3245): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(3257): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(3252): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(3245): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(3252): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(3247): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(3245): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(3247): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(3092): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(3089): message : index 'i' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(3092): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(3054): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(3050): message : index 'x' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(3054): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(3046): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(3045): message : index 'k' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(3054): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(2986): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(2985): message : index 'k' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(2995): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(4778): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(4777): message : index 'k' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(4778): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(2374): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(2371): message : index 'r' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(2374): message : feeds call on this line
+D:\Codespace\opengl-template\include\stb_image.h(2352): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(2351): message : index 'k' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(2357): message : feeds memory load on this line
+D:\Codespace\opengl-template\include\stb_image.h(2332): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\Codespace\opengl-template\include\stb_image.h(2329): message : index 'r' range checked by comparison on this line
+D:\Codespace\opengl-template\include\stb_image.h(2332): message : feeds call on this line
+  opengl-template.vcxproj -> D:\Codespace\opengl-template\bin\opengl-template.exe
