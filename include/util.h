@@ -2,14 +2,16 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "glad/glad.h"
-#include "GLFW/glfw3.h"
+#include <string.h>
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
 
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 
 #define INFO_LOG_BUFFER_SIZE 1024
 #define NORMALIZE_COLOR(c) (float) ((c) / 255.0f)
+#define FILENAME (strrchr(__FILE__, '\\') ? strrchr(__FILE__, '\\') + 1 : __FILE__)
 
 typedef enum
 {
@@ -17,13 +19,21 @@ typedef enum
     FRAGMENT_SHADER,
 } shader_type_t;
 
+typedef enum
+{
+    LOG_INFO,
+    LOG_WARNING,
+    LOG_ERROR
+} log_type_t;
+
 static int compilation_status = 0;
 static char info_log[INFO_LOG_BUFFER_SIZE];
 static int wireframe_mode = 0;
 
+static void        util_log(log_type_t type, const char *fmt, ...);
 static long        get_stream_char_count(FILE *fp);
 static const char *parse_shader(const char *shader_path);
-static void        check_shader_compilation_error(unsigned int *shader, shader_type_t type);
+static void        check_shader_compilation_error(const char *shader, shader_type_t type);
 static void        check_shader_program_compilation_error(unsigned int sp);
 
 int          glad_init(void);
@@ -39,6 +49,36 @@ unsigned int load_texture(const char *image_path, int vflip);
 
 #ifdef UTIL_IMPLEMENTATION
 
+static void util_log(log_type_t type, const char *fmt, ...)
+{
+    switch (type)
+    {
+    case LOG_INFO:
+        fprintf(stdout, "[INFO] ");
+        break;
+
+    case LOG_WARNING:
+        fprintf(stdout, "[WARNING] ");
+        break;
+
+    case LOG_ERROR:
+        fprintf(stderr, "[ERROR] ");
+        break;
+
+    default:
+        break;
+    }
+
+    va_list args;
+    va_start(args, fmt);
+    vfprintf(stdout, fmt, args);
+    va_end(args);
+
+    fprintf(stdout, "\n");
+
+    return;
+}
+
 static long get_stream_char_count(FILE *fp)
 {
     fseek(fp, 0, SEEK_END);
@@ -53,7 +93,7 @@ static const char *parse_shader(const char *shader_path)
     FILE *fp = fopen(shader_path, "rb");
     if (fp == NULL)
     {
-        printf("error: cannot find shader source code\n");
+        util_log(LOG_ERROR, "%s: cannot find \"%s\"", FILENAME, shader_path);
         exit(EXIT_FAILURE);
     }
 
@@ -68,7 +108,7 @@ static const char *parse_shader(const char *shader_path)
     return shader_src;
 }
 
-static void check_shader_compilation_error(unsigned int *shader, shader_type_t type)
+static void check_shader_compilation_error(const char *shader, shader_type_t type)
 {
     glGetShaderiv(shader, GL_COMPILE_STATUS, &compilation_status);
     if (compilation_status == 0)
@@ -76,9 +116,9 @@ static void check_shader_compilation_error(unsigned int *shader, shader_type_t t
         glGetShaderInfoLog(shader, 512, NULL, info_log);
 
         if (type == VERTEX_SHADER)
-            printf("vertex_shader::error: compilation failed\n%s\n", info_log);
+            util_log(LOG_ERROR, "%s::vertex_shader: compilation failed\n%s", FILENAME, info_log);
         if (type == FRAGMENT_SHADER)
-            printf("fragment_shader::error: compilation failed\n%s\n", info_log);
+            util_log(LOG_ERROR, "%s::fragment_shader: compilation failed\n%s", FILENAME, info_log);
 
         exit(EXIT_FAILURE);
     }
@@ -101,7 +141,7 @@ int glad_init(void)
 {
     if (!gladLoadGLLoader((GLADloadproc) glfwGetProcAddress))
     {
-        printf("error: failed to initialize GLAD\n");
+        util_log(LOG_ERROR, "%s: failed to initialize GLAD", FILENAME);
         exit(EXIT_FAILURE);
     }
 
@@ -120,11 +160,11 @@ void toggle_wireframe_mode(void)
     if (wireframe_mode)
     {
         glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
-        wireframe_mode = !wireframe_mode;
+        wireframe_mode = 0;
     } else
     {
         glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
-        wireframe_mode = !wireframe_mode;
+        wireframe_mode = 1;
     }
 
     return;
@@ -133,7 +173,7 @@ void toggle_wireframe_mode(void)
 void key_callback(GLFWwindow *window, int key, int scancode, int action, int mods)
 {
     if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
-        glfwSetWindowShouldClose(window, GL_TRUE);
+        glfwSetWindowShouldClose(window, GL_FALSE);
     if (key == GLFW_KEY_X && action == GLFW_PRESS)
         toggle_wireframe_mode();
 
@@ -239,7 +279,7 @@ unsigned int load_texture(const char *image_path, int vflip)
         glGenerateMipmap(GL_TEXTURE_2D);
     } else
     {
-        printf("error: failed to load texture\n");
+        util_log(LOG_ERROR, "%s: failed to load texture \"%s\"", FILENAME, image_path);
         exit(EXIT_FAILURE);
     }
 
