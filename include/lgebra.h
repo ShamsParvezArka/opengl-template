@@ -45,7 +45,7 @@ LGEBRA void mat4_dot(mat4_t *dst, mat4_t mat_a, mat4_t mat_b);
 LGEBRA void mat4_rotate(mat4_t *mat_a, float angle, vec3_t v);
 LGEBRA mat4_t mat4_scale(mat4_t *mat_a, vec3_t v);
 LGEBRA void mat4_ortho(mat4_t *mat_a, float left, float right, float bottom, float top, float near, float far);
-LGEBRA void mat4_perspective(mat4_t *mat_a, float fov, float aspect, float near, float far);
+LGEBRA void mat4_perspective(mat4_t *mat_a, float fovy, float aspect, float near, float far);
 LGEBRA void mat4_translate(mat4_t *mat_a, vec3_t t);
 
 #ifdef LGEBRA_IMPLEMENTATION
@@ -68,7 +68,6 @@ LGEBRA mat3_t mat3(mat_type_t type)
             1.0f, 0.0f, 0.0f,
             0.0f, 1.0f, 0.0f, 
             0.0f, 0.0f, 1.0f
-
         };
 
     default:
@@ -173,15 +172,16 @@ LGEBRA void mat4_ortho(mat4_t *mat_a, float left, float right, float bottom, flo
     return;
 }
 
-LGEBRA void mat4_perspective(mat4_t *mat_a, float fov, float aspect, float near, float far)
+LGEBRA void mat4_perspective(mat4_t *mat_a, float fovy, float aspect, float near, float far)
 {
-    float theta = DEG_TO_RAD(fov);
+    const float theta = DEG_TO_RAD(fovy);
+    const float tan_half_fovy = tanf(theta * 0.5f);
 
-    mat_a->m[0] = 1.0f / tanf(theta * 0.5f);
-    mat_a->m[5] = 1.0f / tanf(theta * 0.5f);
-    mat_a->m[10] = (far + near) / (near - far);
-    mat_a->m[14] = (2 * far * near) / (near - far);
-    mat_a->m[11] = -1.0f;
+    mat_a->m[0] = 1.0f / aspect * tan_half_fovy;
+    mat_a->m[5] = 1.0f / tan_half_fovy;
+    mat_a->m[10] = far / (far - near);
+    mat_a->m[14] = 1.0f;
+    mat_a->m[11] = -(far * near) / (far - near);
     mat_a->m[15] = 0.0f;
 
     return;

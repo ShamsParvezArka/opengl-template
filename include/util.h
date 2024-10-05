@@ -11,6 +11,7 @@
 
 #define INFO_LOG_BUFFER_SIZE 1024
 #define NORMALIZE_COLOR(c) (float) ((c) / 255.0f)
+
 #define FILENAME (strrchr(__FILE__, '\\') ? strrchr(__FILE__, '\\') + 1 : __FILE__)
 
 typedef enum
